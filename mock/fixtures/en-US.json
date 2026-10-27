@@ -1,0 +1,504 @@
+{
+ "id": "req_mock_enus",
+ "language": "en",
+ "locale": "en-US",
+ "text": "I like sunny days.",
+ "status": "completed",
+ "assessable": true,
+ "reason": null,
+ "model_version": "multilingual-native-v1-en-6605a72ce19a",
+ "scores": {
+  "overall": 80.9,
+  "pronunciation": 84.0,
+  "fluency": null,
+  "integrity": 100.0,
+  "rhythm": null,
+  "tone": null
+ },
+ "words": [
+  {
+   "index": 0,
+   "text": "i",
+   "word": "i",
+   "expected_ipa": "aɪ",
+   "score": 84.3,
+   "start_ms": 0,
+   "end_ms": 111,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "aɪ",
+     "phone": "aɪ",
+     "dimension": "phoneme",
+     "heard": "aɪ",
+     "score": 83.0,
+     "start_ms": 0,
+     "end_ms": 111,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ],
+   "mismatch_risk": -7.446328210639606,
+   "p_error": 0.0005832401000990492,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -7.123777820758122,
+     "threshold": 0.5153632505591581,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -7.6391410713172805,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -7.6391410713172805,
+     "r4h": -7.6391410713172805,
+     "r3": null
+    },
+    "learner": {
+     "score": 10.027,
+     "display": 99.34,
+     "flag": false,
+     "phones": [
+      {
+       "phone": "aɪ",
+       "score": 1.984
+      }
+     ]
+    }
+   },
+   "phones": [
+    {
+     "expected": "aɪ",
+     "phone": "aɪ",
+     "dimension": "phoneme",
+     "heard": "aɪ",
+     "score": 83.0,
+     "start_ms": 0,
+     "end_ms": 111,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "text": "like",
+   "word": "like",
+   "expected_ipa": "laɪk",
+   "score": 97.2,
+   "start_ms": 111,
+   "end_ms": 486,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "l",
+     "phone": "l",
+     "dimension": "phoneme",
+     "heard": "l",
+     "score": 99.4,
+     "start_ms": 111,
+     "end_ms": 213,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "aɪ",
+     "phone": "aɪ",
+     "dimension": "phoneme",
+     "heard": "aɪ",
+     "score": 67.7,
+     "start_ms": 213,
+     "end_ms": 334,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "k",
+     "phone": "k",
+     "dimension": "phoneme",
+     "heard": "k",
+     "score": 61.9,
+     "start_ms": 334,
+     "end_ms": 486,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ],
+   "mismatch_risk": -6.275551981270521,
+   "p_error": 0.001878217735035241,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -8.249696512948708,
+     "threshold": 0.5153632505591581,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -8.765059763507866,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -8.765059763507866,
+     "r4h": -8.765059763507866,
+     "r3": null
+    },
+    "learner": {
+     "score": 9.9768,
+     "display": 99.34,
+     "flag": false,
+     "phones": [
+      {
+       "phone": "ɫ",
+       "score": 1.993
+      },
+      {
+       "phone": "aɪ",
+       "score": 1.982
+      },
+      {
+       "phone": "k",
+       "score": 1.97
+      }
+     ]
+    }
+   },
+   "phones": [
+    {
+     "expected": "l",
+     "phone": "l",
+     "dimension": "phoneme",
+     "heard": "l",
+     "score": 99.4,
+     "start_ms": 111,
+     "end_ms": 213,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "aɪ",
+     "phone": "aɪ",
+     "dimension": "phoneme",
+     "heard": "aɪ",
+     "score": 67.7,
+     "start_ms": 213,
+     "end_ms": 334,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "k",
+     "phone": "k",
+     "dimension": "phoneme",
+     "heard": "k",
+     "score": 61.9,
+     "start_ms": 334,
+     "end_ms": 486,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "text": "sunny",
+   "word": "sunny",
+   "expected_ipa": "sʌni",
+   "score": 94.2,
+   "start_ms": 486,
+   "end_ms": 850,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "s",
+     "phone": "s",
+     "dimension": "phoneme",
+     "heard": "s",
+     "score": 97.0,
+     "start_ms": 486,
+     "end_ms": 577,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "ʌ",
+     "phone": "ʌ",
+     "dimension": "phoneme",
+     "heard": "ɔ",
+     "score": 70.5,
+     "start_ms": 577,
+     "end_ms": 688,
+     "operation": "S",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 69.8,
+     "start_ms": 688,
+     "end_ms": 769,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "i",
+     "phone": "i",
+     "dimension": "phoneme",
+     "heard": "i",
+     "score": 97.6,
+     "start_ms": 769,
+     "end_ms": 850,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ],
+   "mismatch_risk": -4.657299533743917,
+   "p_error": 0.009402808779514993,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -7.315808427815465,
+     "threshold": 0.5153632505591581,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -7.8311716783746235,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -7.8311716783746235,
+     "r4h": -7.8311716783746235,
+     "r3": null
+    },
+    "learner": {
+     "score": 9.6868,
+     "display": 97.33,
+     "flag": false,
+     "phones": [
+      {
+       "phone": "s",
+       "score": 1.98
+      },
+      {
+       "phone": "ə",
+       "score": 1.724
+      },
+      {
+       "phone": "n",
+       "score": 1.942
+      },
+      {
+       "phone": "i",
+       "score": 1.963
+      }
+     ]
+    }
+   },
+   "phones": [
+    {
+     "expected": "s",
+     "phone": "s",
+     "dimension": "phoneme",
+     "heard": "s",
+     "score": 97.0,
+     "start_ms": 486,
+     "end_ms": 577,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "ʌ",
+     "phone": "ʌ",
+     "dimension": "phoneme",
+     "heard": "ɔ",
+     "score": 70.5,
+     "start_ms": 577,
+     "end_ms": 688,
+     "operation": "S",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 69.8,
+     "start_ms": 688,
+     "end_ms": 769,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "i",
+     "phone": "i",
+     "dimension": "phoneme",
+     "heard": "i",
+     "score": 97.6,
+     "start_ms": 769,
+     "end_ms": 850,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "text": "days",
+   "word": "days",
+   "expected_ipa": "deɪz",
+   "score": 98.5,
+   "start_ms": 850,
+   "end_ms": 1822,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "d",
+     "phone": "d",
+     "dimension": "phoneme",
+     "heard": "d",
+     "score": 89.4,
+     "start_ms": 850,
+     "end_ms": 962,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "eɪ",
+     "phone": "eɪ",
+     "dimension": "phoneme",
+     "heard": "eɪ",
+     "score": 96.8,
+     "start_ms": 962,
+     "end_ms": 1164,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "z",
+     "phone": "z",
+     "dimension": "phoneme",
+     "heard": "z",
+     "score": 99.2,
+     "start_ms": 1164,
+     "end_ms": 1822,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ],
+   "mismatch_risk": -4.548229908412708,
+   "p_error": 0.010475037893313978,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -7.564359018714326,
+     "threshold": 0.5153632505591581,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -8.079722269273484,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -8.079722269273484,
+     "r4h": -8.079722269273484,
+     "r3": null
+    },
+    "learner": {
+     "score": 9.7737,
+     "display": 98.88,
+     "flag": false,
+     "phones": [
+      {
+       "phone": "d",
+       "score": 1.931
+      },
+      {
+       "phone": "eɪ",
+       "score": 1.941
+      },
+      {
+       "phone": "z",
+       "score": 1.786
+      }
+     ]
+    }
+   },
+   "phones": [
+    {
+     "expected": "d",
+     "phone": "d",
+     "dimension": "phoneme",
+     "heard": "d",
+     "score": 89.4,
+     "start_ms": 850,
+     "end_ms": 962,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "eɪ",
+     "phone": "eɪ",
+     "dimension": "phoneme",
+     "heard": "eɪ",
+     "score": 96.8,
+     "start_ms": 962,
+     "end_ms": 1164,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "z",
+     "phone": "z",
+     "dimension": "phoneme",
+     "heard": "z",
+     "score": 99.2,
+     "start_ms": 1164,
+     "end_ms": 1822,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ]
+  }
+ ],
+ "heard": {
+  "phonetic_transcription": "aɪlaɪksɔnideɪz"
+ },
+ "warnings": [],
+ "duration_seconds": 1.82,
+ "task": "general",
+ "timing_ms": 418,
+ "engine_route": {
+  "engine": "primary",
+  "box": "eu",
+  "fallback": false
+ },
+ "billing": {
+  "credits": 1,
+  "source": "free",
+  "balance_credits": 0,
+  "free_credits": 49
+ }
+}

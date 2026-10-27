@@ -1,0 +1,12 @@
+[
+  {"file": "zh-CN.ogg", "language": "zh-CN", "text": "我想买书", "voice": "cmn"},
+  {"file": "en-US.ogg", "language": "en-US", "text": "I like sunny days.", "voice": "en-us"},
+  {"file": "es-419.ogg", "language": "es-419", "text": "Buenos días, ¿cómo estás?", "voice": "es-419"},
+  {"file": "fr-FR.ogg", "language": "fr-FR", "text": "Je voudrais un café.", "voice": "fr-fr"},
+  {"file": "de-DE.ogg", "language": "de-DE", "text": "Guten Morgen, wie geht es dir?", "voice": "de"},
+  {"file": "it-IT.ogg", "language": "it-IT", "text": "Buongiorno, come stai?", "voice": "it"},
+  {"file": "pt-BR.ogg", "language": "pt-BR", "text": "Obrigado pela ajuda.", "voice": "pt-br"},
+  {"file": "ru-RU.ogg", "language": "ru-RU", "text": "Спасибо за помощь.", "voice": "ru"},
+  {"file": "ko-KR.ogg", "language": "ko-KR", "text": "커피 한 잔 주세요.", "voice": "ko"},
+  {"file": "ja-JP.ogg", "language": "ja-JP", "text": "ありがとうございます。", "voice": "ja"}
+]

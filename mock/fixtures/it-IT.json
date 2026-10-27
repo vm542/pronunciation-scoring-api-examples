@@ -1,0 +1,532 @@
+{
+ "id": "req_mock_itit",
+ "language": "it",
+ "locale": "it-IT",
+ "text": "Buongiorno, come stai?",
+ "status": "completed",
+ "assessable": true,
+ "reason": null,
+ "model_version": "multilingual-native-v1-it-516873052648",
+ "scores": {
+  "overall": 93.6,
+  "pronunciation": 94.8,
+  "fluency": null,
+  "integrity": 93.4,
+  "rhythm": null,
+  "tone": null
+ },
+ "words": [
+  {
+   "index": 0,
+   "text": "buongiorno",
+   "word": "buongiorno",
+   "expected_ipa": "buondʒorno",
+   "score": 98.7,
+   "start_ms": 0,
+   "end_ms": 778,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "b",
+     "phone": "b",
+     "dimension": "phoneme",
+     "heard": "b",
+     "score": 99.6,
+     "start_ms": 0,
+     "end_ms": 61,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "u",
+     "phone": "u",
+     "dimension": "phoneme",
+     "heard": "u",
+     "score": 97.9,
+     "start_ms": 61,
+     "end_ms": 81,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 97.0,
+     "start_ms": 81,
+     "end_ms": 141,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_by": "transcript"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 98.4,
+     "start_ms": 141,
+     "end_ms": 232,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "dʒ",
+     "phone": "dʒ",
+     "dimension": "phoneme",
+     "heard": "dʒ",
+     "score": 99.8,
+     "start_ms": 232,
+     "end_ms": 303,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 303,
+     "end_ms": 414,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "r",
+     "phone": "r",
+     "dimension": "phoneme",
+     "heard": "r",
+     "score": 99.4,
+     "start_ms": 414,
+     "end_ms": 546,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 99.3,
+     "start_ms": 546,
+     "end_ms": 606,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 606,
+     "end_ms": 778,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ],
+   "mismatch_risk": -4.427845244698409,
+   "p_error": 0.011799304225536952,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -7.986686535078604,
+     "threshold": -0.08913306537960874,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -7.8975534696989955,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -7.8975534696989955,
+     "r4h": -7.8975534696989955,
+     "r3": null
+    }
+   },
+   "phones": [
+    {
+     "expected": "b",
+     "phone": "b",
+     "dimension": "phoneme",
+     "heard": "b",
+     "score": 99.6,
+     "start_ms": 0,
+     "end_ms": 61,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "u",
+     "phone": "u",
+     "dimension": "phoneme",
+     "heard": "u",
+     "score": 97.9,
+     "start_ms": 61,
+     "end_ms": 81,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 97.0,
+     "start_ms": 81,
+     "end_ms": 141,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_by": "transcript"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 98.4,
+     "start_ms": 141,
+     "end_ms": 232,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "dʒ",
+     "phone": "dʒ",
+     "dimension": "phoneme",
+     "heard": "dʒ",
+     "score": 99.8,
+     "start_ms": 232,
+     "end_ms": 303,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 303,
+     "end_ms": 414,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "r",
+     "phone": "r",
+     "dimension": "phoneme",
+     "heard": "r",
+     "score": 99.4,
+     "start_ms": 414,
+     "end_ms": 546,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "n",
+     "phone": "n",
+     "dimension": "phoneme",
+     "heard": "n",
+     "score": 99.3,
+     "start_ms": 546,
+     "end_ms": 606,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 606,
+     "end_ms": 778,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "text": "come",
+   "word": "come",
+   "expected_ipa": "kome",
+   "score": 96.8,
+   "start_ms": 778,
+   "end_ms": 1142,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "k",
+     "phone": "k",
+     "dimension": "phoneme",
+     "heard": "k",
+     "score": 96.8,
+     "start_ms": 778,
+     "end_ms": 960,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 960,
+     "end_ms": 1021,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "m",
+     "phone": "m",
+     "dimension": "phoneme",
+     "heard": "m",
+     "score": 98.4,
+     "start_ms": 1021,
+     "end_ms": 1081,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "e",
+     "phone": "e",
+     "dimension": "phoneme",
+     "heard": "e",
+     "score": 96.8,
+     "start_ms": 1081,
+     "end_ms": 1142,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_raw": "i"
+    }
+   ],
+   "mismatch_risk": -5.1732631745576985,
+   "p_error": 0.005634126075333808,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -8.192269813879939,
+     "threshold": -0.08913306537960874,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -8.10313674850033,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -8.10313674850033,
+     "r4h": -8.10313674850033,
+     "r3": null
+    }
+   },
+   "phones": [
+    {
+     "expected": "k",
+     "phone": "k",
+     "dimension": "phoneme",
+     "heard": "k",
+     "score": 96.8,
+     "start_ms": 778,
+     "end_ms": 960,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "o",
+     "phone": "o",
+     "dimension": "phoneme",
+     "heard": "o",
+     "score": 98.0,
+     "start_ms": 960,
+     "end_ms": 1021,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "m",
+     "phone": "m",
+     "dimension": "phoneme",
+     "heard": "m",
+     "score": 98.4,
+     "start_ms": 1021,
+     "end_ms": 1081,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "e",
+     "phone": "e",
+     "dimension": "phoneme",
+     "heard": "e",
+     "score": 96.8,
+     "start_ms": 1081,
+     "end_ms": 1142,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_raw": "i"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "text": "stai",
+   "word": "stai",
+   "expected_ipa": "staj",
+   "score": 98.8,
+   "start_ms": 1142,
+   "end_ms": 1576,
+   "decision": "no_correction",
+   "omission_suspected": false,
+   "phonemes": [
+    {
+     "expected": "s",
+     "phone": "s",
+     "dimension": "phoneme",
+     "heard": "s",
+     "score": 98.2,
+     "start_ms": 1142,
+     "end_ms": 1233,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "t",
+     "phone": "t",
+     "dimension": "phoneme",
+     "heard": "t",
+     "score": 99.6,
+     "start_ms": 1233,
+     "end_ms": 1314,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "a",
+     "phone": "a",
+     "dimension": "phoneme",
+     "heard": "a",
+     "score": 98.8,
+     "start_ms": 1314,
+     "end_ms": 1415,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "j",
+     "phone": "j",
+     "dimension": "phoneme",
+     "heard": "j",
+     "score": 97.7,
+     "start_ms": 1415,
+     "end_ms": 1576,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_by": "transcript"
+    }
+   ],
+   "mismatch_risk": -5.881202998058492,
+   "p_error": 0.0027836548111598858,
+   "assessed": true,
+   "reason": null,
+   "word_evidence": {
+    "channel": "gbm_pooled_all_tail_train7(g2pfix7)",
+    "version": "rc4-wordhead",
+    "native_budget": 0.05,
+    "r2": {
+     "score": -8.628361527545115,
+     "threshold": -0.08913306537960874,
+     "heard_homophone": false,
+     "definite": false,
+     "acoustic_decision": "no_correction"
+    },
+    "combined_risk": -8.539228462165507,
+    "rank5": {
+     "mode": "r4h",
+     "r4": -8.539228462165507,
+     "r4h": -8.539228462165507,
+     "r3": null
+    }
+   },
+   "phones": [
+    {
+     "expected": "s",
+     "phone": "s",
+     "dimension": "phoneme",
+     "heard": "s",
+     "score": 98.2,
+     "start_ms": 1142,
+     "end_ms": 1233,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "t",
+     "phone": "t",
+     "dimension": "phoneme",
+     "heard": "t",
+     "score": 99.6,
+     "start_ms": 1233,
+     "end_ms": 1314,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "a",
+     "phone": "a",
+     "dimension": "phoneme",
+     "heard": "a",
+     "score": 98.8,
+     "start_ms": 1314,
+     "end_ms": 1415,
+     "operation": "M",
+     "diagnosis_status": "experimental"
+    },
+    {
+     "expected": "j",
+     "phone": "j",
+     "dimension": "phoneme",
+     "heard": "j",
+     "score": 97.7,
+     "start_ms": 1415,
+     "end_ms": 1576,
+     "operation": "M",
+     "diagnosis_status": "experimental",
+     "heard_by": "transcript"
+    }
+   ]
+  }
+ ],
+ "heard": {
+  "phonetic_transcription": "bundʒornokomista"
+ },
+ "warnings": [],
+ "duration_seconds": 1.58,
+ "task": "general",
+ "timing_ms": 261,
+ "engine_route": {
+  "engine": "primary",
+  "box": "eu",
+  "fallback": false
+ },
+ "billing": {
+  "credits": 1,
+  "source": "free",
+  "balance_credits": 0,
+  "free_credits": 49
+ }
+}
